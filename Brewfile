@@ -98,6 +98,7 @@ brew 'git'
 cask 'sourcetree'
 
 brew 'ghq'
+brew 'hub'
 
 ##
 # ime
