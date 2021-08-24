@@ -62,18 +62,6 @@ brew 'yq'
 brew 'tree'
 
 ##
-# Passwords
-##
-cask 'bitwarden'
-
-
-##
-# Anti-virus
-##
-# cask 'avast-security'
-
-
-##
 # Editor
 ##
 brew 'vim'
@@ -101,9 +89,9 @@ brew 'ghq'
 brew 'hub'
 
 ##
-# ime
+# cloud
 ##
-cask 'google-japanese-ime'
+brew 'serverless'
 
 ##
 # font
@@ -142,6 +130,18 @@ cask 'zoom'
 ##
 
 cask 'notion'
+
+
+##
+# Passwords manager
+##
+cask 'bitwarden'
+
+
+##
+# Anti-virus
+##
+# cask 'avast-security'
 
 
 ##
