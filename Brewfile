@@ -79,6 +79,12 @@ cask 'visual-studio-code'
 ##
 brew 'curl', link: true
 
+
+##
+# language
+##
+brew 'node'
+
 ##
 # Version control
 ##
