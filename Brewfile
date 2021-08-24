@@ -25,7 +25,7 @@ cask 'google-chrome'
 # Chat
 ##
 
-# cask 'microsoft-teams'
+cask 'microsoft-teams'
 cask 'slack'
 
 ##
