@@ -91,6 +91,9 @@ brew 'curl', link: true
 
 brew 'node'
 
+# package manager for node.js
+brew 'yarn'
+
 ##
 # Version control
 ##
