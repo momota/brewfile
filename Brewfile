@@ -31,6 +31,7 @@ cask 'slack'
 ##
 # Terminals
 ##
+
 cask 'iterm2'
 
 # Tmux is a newer terminal multiplexer.
@@ -39,6 +40,7 @@ brew 'tmux'
 ##
 # Shells
 ##
+
 brew 'zsh'
 brew 'fish'
 
@@ -64,6 +66,7 @@ brew 'tree'
 ##
 # Editor
 ##
+
 brew 'vim'
 # cask 'macvim'
 brew 'neovim'
@@ -72,22 +75,26 @@ brew 'less'
 ##
 # IDE
 ##
+
 cask 'visual-studio-code'
 
 ##
 # Downloaders
 ##
+
 brew 'curl', link: true
 
 
 ##
 # language
 ##
+
 brew 'node'
 
 ##
 # Version control
 ##
+
 brew 'git'
 cask 'sourcetree'
 
@@ -97,17 +104,20 @@ brew 'hub'
 ##
 # cloud
 ##
+
 brew 'serverless'
 
 ##
 # font
 ##
+
 cask 'font-cica'
 
 
 ##
 # ime
 ##
+
 cask 'google-japanese-ime'
 
 
@@ -139,14 +149,23 @@ cask 'notion'
 
 
 ##
+# Storage service
+##
+
+cask 'dropbox'
+
+
+##
 # Passwords manager
 ##
+
 cask 'bitwarden'
 
 
 ##
 # Anti-virus
 ##
+
 # cask 'avast-security'
 
 
