@@ -131,6 +131,9 @@ cask 'google-japanese-ime'
 cask 'vlc'
 cask 'skitch'
 
+# ebook viewer
+cask 'kindle'
+
 ##
 # launcher
 ##
