@@ -165,8 +165,11 @@ cask 'dropbox'
 # Passwords manager
 ##
 
+# password manager
 cask 'bitwarden'
 
+# password generator
+brew 'pwgen'
 
 ##
 # Anti-virus
