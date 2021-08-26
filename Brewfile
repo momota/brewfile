@@ -94,10 +94,14 @@ brew 'curl', link: true
 # language
 ##
 
+# node.js
 brew 'node'
 
 # package manager for node.js
 brew 'yarn'
+
+# golang
+brew 'go'
 
 ##
 # Version control
