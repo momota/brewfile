@@ -14,6 +14,9 @@ tap 'homebrew/core'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 
+# cli for installing apps of the Mac App Store
+brew 'mas'
+
 ##
 # Browsers
 ##
@@ -27,6 +30,8 @@ cask 'google-chrome'
 
 cask 'microsoft-teams'
 cask 'slack'
+
+mas 'LINE', id: 539883307
 
 ##
 # Terminals
