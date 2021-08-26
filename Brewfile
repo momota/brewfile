@@ -177,6 +177,12 @@ cask 'bitwarden'
 brew 'pwgen'
 
 ##
+# Office
+##
+
+# mas 'microsoft-365', id: 1450038993
+
+##
 # Anti-virus
 ##
 
