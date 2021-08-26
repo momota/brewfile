@@ -123,7 +123,15 @@ brew 'serverless'
 # container
 ##
 
+# docker for mac
 cask 'docker'
+
+# the cli tool for kubernetes
+#   - commented out because it is installed with docker
+# brew 'kubectl'
+
+# the package manager for kubernetes
+brew 'helm'
 
 ##
 # font
