@@ -158,7 +158,7 @@ cask 'skitch'
 cask 'kindle'
 
 # BlackHole is a modern macOS virtual audio driver that allows applications to pass audio to other applications with zero additional latency.
-cask 'blackhole'
+cask 'blackhole-16ch'
 
 ##
 # launcher
