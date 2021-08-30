@@ -103,6 +103,9 @@ brew 'yarn'
 # golang
 brew 'go'
 
+# ruby
+brew 'rbenv'
+
 ##
 # Version control
 ##
