@@ -23,6 +23,9 @@ brew 'mas'
 
 cask 'google-chrome'
 
+# WebDriver which is oss tools for automated testing of webapps across web browsers
+# for selenium
+cask 'chromedriver'
 
 ##
 # Chat
