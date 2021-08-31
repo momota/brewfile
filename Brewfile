@@ -224,3 +224,6 @@ cask 'flux'
 
 # clipboard manager
 cask 'clipy'
+
+# list the shortcut keys for each applications
+cask 'cheatsheet'
