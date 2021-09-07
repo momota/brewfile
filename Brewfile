@@ -223,7 +223,11 @@ brew 'pwgen'
 cask 'flux'
 
 # clipboard manager
-cask 'clipy'
+
+# clipy doesn't work copying screenshot, so switch to maccy
+# cask 'clipy'
+
+cask 'maccy'
 
 # list the shortcut keys for each applications
 cask 'cheatsheet'
