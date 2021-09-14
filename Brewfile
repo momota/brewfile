@@ -14,6 +14,9 @@ tap 'homebrew/core'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 
+# alpha
+tap 'adoptopenjdk/openjdk'
+
 # cli for installing apps of the Mac App Store
 brew 'mas'
 
@@ -233,3 +236,26 @@ cask 'maccy'
 
 # list the shortcut keys for each applications
 cask 'cheatsheet'
+
+
+##
+# alpha
+##
+cask 'adoptopenjdk11'
+brew 'gradle'
+brew 'sshuttle'
+brew 'terraform'
+brew 'terragrunt'
+brew 'ansible'
+# brew 'kubectrl'
+brew 'kubectx'
+brew 'txn2/tap/kubefwd'
+brew 'packer'
+brew 'git-crypt'
+brew 'awscli'
+cask 'postman'
+brew 'stern'
+brew 'derailed/k9s/k9s'
+cask 'intellij-idea-ce'
+brew 'micronaut'
+cask 'dbeaver-community'
