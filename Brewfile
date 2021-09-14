@@ -17,6 +17,7 @@ tap 'homebrew/services'
 # alpha
 tap 'adoptopenjdk/openjdk'
 
+
 # cli for installing apps of the Mac App Store
 brew 'mas'
 
@@ -91,6 +92,8 @@ cask 'visual-studio-code'
 
 mas 'Xcode', id: 497799835
 
+cask 'intellij-idea-ce'
+
 ##
 # Downloaders
 ##
@@ -114,6 +117,15 @@ brew 'go'
 # ruby
 brew 'rbenv'
 
+# java
+cask 'adoptopenjdk11'
+
+brew 'micronaut'
+
+
+# build tools
+brew 'gradle'
+
 ##
 # Version control
 ##
@@ -124,11 +136,37 @@ cask 'sourcetree'
 brew 'ghq'
 brew 'hub'
 
+brew 'git-crypt'
+
+##
+# network / vpn
+##
+brew 'sshuttle'
+
+# api client
+cask 'postman'
+
+##
+# database
+##
+cask 'dbeaver-community'
+
+
 ##
 # cloud
 ##
 
+brew 'awscli'
 brew 'serverless'
+brew 'packer'
+
+##
+# IaC
+##
+
+brew 'terraform'
+brew 'terragrunt'
+brew 'ansible'
 
 ##
 # container
@@ -143,6 +181,19 @@ cask 'docker'
 
 # the package manager for kubernetes
 brew 'helm'
+
+# Faster way to switch between clusters and namespaces in kubectl
+brew 'kubectx'
+
+# Bulk port forwarding Kubernetes services for local development.
+brew 'txn2/tap/kubefwd'
+
+# 🐶 Kubernetes CLI To Manage Your Clusters In Style
+brew 'derailed/k9s/k9s'
+
+# ⎈ Multi pod and container log tailing for Kubernetes
+brew 'stern'
+
 
 ##
 # font
@@ -237,25 +288,3 @@ cask 'maccy'
 # list the shortcut keys for each applications
 cask 'cheatsheet'
 
-
-##
-# alpha
-##
-cask 'adoptopenjdk11'
-brew 'gradle'
-brew 'sshuttle'
-brew 'terraform'
-brew 'terragrunt'
-brew 'ansible'
-# brew 'kubectrl'
-brew 'kubectx'
-brew 'txn2/tap/kubefwd'
-brew 'packer'
-brew 'git-crypt'
-brew 'awscli'
-cask 'postman'
-brew 'stern'
-brew 'derailed/k9s/k9s'
-cask 'intellij-idea-ce'
-brew 'micronaut'
-cask 'dbeaver-community'
