@@ -84,6 +84,23 @@ brew 'vim'
 brew 'neovim'
 brew 'less'
 
+
+# to install vimr ---------
+brew 'carthage'
+brew 'coreutils'
+brew 'gnu-sed'
+brew 'libtool'
+brew 'automake'
+brew 'cmake'
+brew 'pkg-config'
+brew 'gettext'
+brew 'ninja'
+brew 'coreutils'
+
+brew 'python3'
+# -------------------------
+
+
 ##
 # IDE
 ##
@@ -137,6 +154,9 @@ brew 'ghq'
 brew 'hub'
 
 brew 'git-crypt'
+
+# Git Large File Storage
+brew 'git-lfs'
 
 ##
 # network / vpn
