@@ -135,7 +135,7 @@ brew 'go'
 brew 'rbenv'
 
 # java
-# cask 'adoptopenjdk11'
+cask 'adoptopenjdk15'
 
 brew 'micronaut'
 
