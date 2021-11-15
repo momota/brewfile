@@ -15,7 +15,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/services'
 
 # alpha
-tap 'adoptopenjdk/openjdk'
+# tap 'adoptopenjdk/openjdk'
 
 
 # cli for installing apps of the Mac App Store
@@ -35,7 +35,7 @@ cask 'chromedriver'
 # Chat
 ##
 
-cask 'microsoft-teams'
+# cask 'microsoft-teams'
 cask 'slack'
 
 mas 'LINE', id: 539883307
@@ -86,18 +86,18 @@ brew 'less'
 
 
 # to install vimr ---------
-brew 'carthage'
-brew 'coreutils'
-brew 'gnu-sed'
-brew 'libtool'
-brew 'automake'
-brew 'cmake'
-brew 'pkg-config'
-brew 'gettext'
-brew 'ninja'
-brew 'coreutils'
+# brew 'carthage'
+# brew 'coreutils'
+# brew 'gnu-sed'
+# brew 'libtool'
+# brew 'automake'
+# brew 'cmake'
+# brew 'pkg-config'
+# brew 'gettext'
+# brew 'ninja'
+# brew 'coreutils'
 
-brew 'python3'
+# brew 'python3'
 # -------------------------
 
 
@@ -109,7 +109,7 @@ cask 'visual-studio-code'
 
 mas 'Xcode', id: 497799835
 
-cask 'intellij-idea-ce'
+# cask 'intellij-idea-ce'
 
 ##
 # Downloaders
@@ -135,13 +135,13 @@ brew 'go'
 brew 'rbenv'
 
 # java
-cask 'adoptopenjdk15'
+# cask 'adoptopenjdk15'
 
-brew 'micronaut'
+# brew 'micronaut'
 
 
 # build tools
-brew 'gradle'
+# brew 'gradle'
 
 ##
 # Version control
@@ -169,7 +169,7 @@ cask 'postman'
 ##
 # database
 ##
-cask 'dbeaver-community'
+# cask 'dbeaver-community'
 
 
 ##
@@ -178,7 +178,7 @@ cask 'dbeaver-community'
 
 brew 'awscli'
 brew 'serverless'
-brew 'packer'
+# brew 'packer'
 
 ##
 # IaC
@@ -306,5 +306,5 @@ cask 'flux'
 cask 'maccy'
 
 # list the shortcut keys for each applications
-cask 'cheatsheet'
+# cask 'cheatsheet'
 
