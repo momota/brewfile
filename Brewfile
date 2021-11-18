@@ -209,7 +209,7 @@ brew 'kubectx'
 brew 'txn2/tap/kubefwd'
 
 # 🐶 Kubernetes CLI To Manage Your Clusters In Style
-brew 'derailed/k9s/k9s'
+# brew 'derailed/k9s/k9s'
 
 # ⎈ Multi pod and container log tailing for Kubernetes
 brew 'stern'
