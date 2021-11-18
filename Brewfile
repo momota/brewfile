@@ -263,6 +263,7 @@ cask 'zoom'
 ##
 
 cask 'notion'
+cask 'evernote'
 
 
 ##
