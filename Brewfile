@@ -111,6 +111,9 @@ mas 'Xcode', id: 497799835
 
 cask 'intellij-idea-ce'
 
+# tools for building Android applications
+cask 'android-studio'
+
 ##
 # Downloaders
 ##
@@ -142,6 +145,10 @@ brew 'micronaut'
 
 # build tools
 brew 'gradle'
+
+
+# flutter
+cask 'flutter'
 
 ##
 # Version control
