@@ -315,6 +315,10 @@ cask 'flux'
 
 cask 'maccy'
 
+# Snippets Manager
+#   manually installed; Can not install from brew.
+# mas 'Snippety', id: 1530751461
+
 # list the shortcut keys for each applications
 cask 'cheatsheet'
 
