@@ -120,6 +120,7 @@ cask 'android-studio'
 
 brew 'curl', link: true
 
+brew 'wget'
 
 ##
 # language
