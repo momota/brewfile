@@ -309,6 +309,10 @@ cask 'flux'
 
 cask 'maccy'
 
+# Snippets manager
+mas 'Snippety', id: 1530751461
+
+
 # list the shortcut keys for each applications
 # cask 'cheatsheet'
 
