@@ -312,6 +312,8 @@ cask 'maccy'
 # Snippets manager
 mas 'Snippety', id: 1530751461
 
+# Tool to manage the size and position of windows
+cask 'shiftit'
 
 # list the shortcut keys for each applications
 # cask 'cheatsheet'
