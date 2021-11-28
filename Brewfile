@@ -315,6 +315,9 @@ mas 'Snippety', id: 1530751461
 # Tool to manage the size and position of windows
 cask 'shiftit'
 
+# Yet another keyboard window switcher for your Mac
+cask 'hyperswitch'
+
 # list the shortcut keys for each applications
 # cask 'cheatsheet'
 
