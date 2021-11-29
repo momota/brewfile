@@ -158,6 +158,9 @@ brew 'git-crypt'
 # Git Large File Storage
 brew 'git-lfs'
 
+# Prevents you from committing sensitive information to a git repo
+brew 'git-secrets'
+
 ##
 # network / vpn
 ##
