@@ -251,6 +251,8 @@ cask 'blackhole-16ch'
 
 cask 'alfred'
 
+# alfread plugin
+# https://github.com/meyer/alfred-emoji-workflow
 
 ##
 # Meeting
