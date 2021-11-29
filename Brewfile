@@ -316,6 +316,9 @@ cask 'flux'
 
 cask 'maccy'
 
+# Tool to manage the size and position of windows
+cask 'shiftit'
+
 # Snippets Manager
 #   manually installed; Can not install from brew.
 # mas 'Snippety', id: 1530751461
