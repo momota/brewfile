@@ -111,6 +111,10 @@ mas 'Xcode', id: 497799835
 
 # cask 'intellij-idea-ce'
 
+# Tools for building Android applications
+cask 'android-studio'
+
+
 ##
 # Downloaders
 ##
@@ -138,6 +142,12 @@ brew 'rbenv'
 # cask 'adoptopenjdk15'
 
 # brew 'micronaut'
+
+# UI toolkit for building applications for mobile, web and desktop
+cask 'flutter'
+
+# Dependency manager for Cocoa projects
+brew 'cocoapods'
 
 
 # build tools
