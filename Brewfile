@@ -82,8 +82,8 @@ brew 'tree'
 brew 'vim'
 # cask 'macvim'
 brew 'neovim'
+brew 'neovim-qt'
 brew 'less'
-
 
 # to install vimr ---------
 brew 'carthage'
