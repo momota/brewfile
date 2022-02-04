@@ -260,7 +260,8 @@ cask 'blackhole-16ch'
 # launcher
 ##
 
-cask 'alfred'
+# cask 'alfred'
+cask 'raycast'
 
 
 ##
