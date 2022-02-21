@@ -82,8 +82,8 @@ brew 'tree'
 brew 'vim'
 # cask 'macvim'
 brew 'neovim'
+brew 'neovim-qt'
 brew 'less'
-
 
 # to install vimr ---------
 # brew 'carthage'
@@ -115,12 +115,16 @@ mas 'Xcode', id: 497799835
 cask 'android-studio'
 
 
+# tools for building Android applications
+cask 'android-studio'
+
 ##
 # Downloaders
 ##
 
 brew 'curl', link: true
 
+brew 'wget'
 
 ##
 # language
@@ -153,6 +157,10 @@ brew 'cocoapods'
 # build tools
 # brew 'gradle'
 
+
+# flutter
+cask 'flutter'
+
 ##
 # Version control
 ##
@@ -175,6 +183,9 @@ brew 'git-secrets'
 # network / vpn
 ##
 brew 'sshuttle'
+
+# Free and open-source OpenVPN client
+cask 'tunnelblick'
 
 # api client
 cask 'postman'
@@ -262,7 +273,8 @@ cask 'blackhole-16ch'
 # launcher
 ##
 
-cask 'alfred'
+# cask 'alfred'
+cask 'raycast'
 
 # alfread plugin
 # https://github.com/meyer/alfred-emoji-workflow
@@ -324,15 +336,27 @@ cask 'flux'
 
 cask 'maccy'
 
+<<<<<<< HEAD
 # Snippets manager
 mas 'Snippety', id: 1530751461
 
+=======
+>>>>>>> origin/main
 # Tool to manage the size and position of windows
 cask 'shiftit'
 
 # Yet another keyboard window switcher for your Mac
 cask 'hyperswitch'
 
+<<<<<<< HEAD
 # list the shortcut keys for each applications
 # cask 'cheatsheet'
+=======
+# Snippets Manager
+#   manually installed; Can not install from brew.
+# mas 'Snippety', id: 1530751461
+
+# list the shortcut keys for each applications
+cask 'cheatsheet'
+>>>>>>> origin/main
 
