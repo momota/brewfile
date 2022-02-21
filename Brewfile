@@ -336,27 +336,17 @@ cask 'flux'
 
 cask 'maccy'
 
-<<<<<<< HEAD
 # Snippets manager
 mas 'Snippety', id: 1530751461
 
-=======
->>>>>>> origin/main
 # Tool to manage the size and position of windows
 cask 'shiftit'
 
 # Yet another keyboard window switcher for your Mac
 cask 'hyperswitch'
 
-<<<<<<< HEAD
 # list the shortcut keys for each applications
 # cask 'cheatsheet'
-=======
 # Snippets Manager
 #   manually installed; Can not install from brew.
 # mas 'Snippety', id: 1530751461
-
-# list the shortcut keys for each applications
-cask 'cheatsheet'
->>>>>>> origin/main
-
