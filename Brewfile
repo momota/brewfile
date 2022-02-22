@@ -290,6 +290,7 @@ cask 'dropbox'
 
 # password manager
 cask 'bitwarden'
+brew 'bitwarden-cli'
 
 # password generator
 brew 'pwgen'
