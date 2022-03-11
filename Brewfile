@@ -326,7 +326,8 @@ cask 'flux'
 cask 'maccy'
 
 # Tool to manage the size and position of windows
-cask 'shiftit'
+# => Substituted by raycast
+# cask 'shiftit'
 
 # Yet another keyboard window switcher for your Mac
 cask 'hyperswitch'
