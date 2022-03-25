@@ -264,7 +264,7 @@ cask 'skitch'
 cask 'kindle'
 
 # Epubor Ulitimate: Convert and remove DRM on eBooks
-cask 'ultimate'
+# cask 'ultimate'
 
 
 # music
