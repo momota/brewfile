@@ -263,6 +263,10 @@ cask 'skitch'
 # ebook viewer
 cask 'kindle'
 
+# Epubor Ulitimate: Convert and remove DRM on eBooks
+cask 'ultimate'
+
+
 # music
 cask 'spotify'
 
