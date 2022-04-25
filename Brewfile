@@ -242,6 +242,8 @@ cask 'font-cica'
 
 cask 'google-japanese-ime'
 
+# migemo
+brew 'cmigemo'
 
 ##
 # Multimedia
