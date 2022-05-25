@@ -151,6 +151,10 @@ brew 'gradle'
 # flutter
 cask 'flutter'
 
+
+# kotlin for NEXCO PoC
+brew 'kotlin'
+
 ##
 # Version control
 ##
