@@ -143,6 +143,9 @@ cask 'adoptopenjdk15'
 
 brew 'micronaut'
 
+# java for PlantUML running
+cask 'temurin'
+
 
 # build tools
 brew 'gradle'
@@ -345,3 +348,7 @@ cask 'hyperswitch'
 # list the shortcut keys for each applications
 cask 'cheatsheet'
 
+
+# graph visualization software
+#   for the PlantUML plugin of VS Code
+brew 'graphviz'
