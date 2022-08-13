@@ -252,8 +252,16 @@ cask 'font-cica'
 
 cask 'google-japanese-ime'
 
+##
 # migemo
-brew 'cmigemo'
+## 
+# cmigemo for nvim
+#   Switched to manual installation because the dictionary file was not loaded properly.
+# brew 'cmigemo'
+
+# nkf for manual installation of cmigemo
+brew 'nkf'
+
 
 ##
 # Multimedia
