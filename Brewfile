@@ -346,7 +346,7 @@ cask 'hyperswitch'
 # mas 'Snippety', id: 1530751461
 
 # list the shortcut keys for each applications
-cask 'cheatsheet'
+# cask 'cheatsheet'
 
 
 # graph visualization software
