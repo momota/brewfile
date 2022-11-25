@@ -315,7 +315,7 @@ brew 'pwgen'
 # Office
 ##
 
-# mas 'microsoft-365', id: 1450038993
+# mas 'microsoft-365', id: 1450038993re
 
 ##
 # Anti-virus
@@ -342,7 +342,8 @@ cask 'maccy'
 # cask 'shiftit'
 
 # Yet another keyboard window switcher for your Mac
-cask 'hyperswitch'
+#   -> Removed due to iterference with Windows operations in VDI
+# cask 'hyperswitch'
 
 # Snippets Manager
 #   manually installed; Can not install from brew.
