@@ -56,6 +56,9 @@ brew 'tmux'
 brew 'zsh'
 brew 'fish'
 
+# RDP client
+cask 'microsoft-remote-desktop'
+
 ##
 # terminal tools
 ##
