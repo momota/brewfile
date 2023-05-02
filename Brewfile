@@ -297,7 +297,8 @@ cask 'raycast'
 # Meeting
 ##
 
-cask 'zoom'
+## Manual installation because version upgrade is not available.
+# cask 'zoom'
 
 ##
 # Note, memo
