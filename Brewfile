@@ -26,6 +26,7 @@ brew 'mas'
 ##
 
 cask 'google-chrome'
+cask 'microsoft-edge'
 
 # WebDriver which is oss tools for automated testing of webapps across web browsers
 # for selenium
