@@ -46,6 +46,7 @@ mas 'LINE', id: 539883307
 ##
 
 cask 'iterm2'
+cask 'warp'
 
 # Tmux is a newer terminal multiplexer.
 brew 'tmux'
