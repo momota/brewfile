@@ -323,6 +323,12 @@ brew 'pwgen'
 # mas 'microsoft-365', id: 1450038993re
 
 ##
+# design tools
+##
+
+cask 'figma'
+
+##
 # Anti-virus
 ##
 
