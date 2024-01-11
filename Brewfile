@@ -84,7 +84,7 @@ brew 'tree'
 # Editor
 ##
 
-brew 'vim'
+# brew 'vim'
 # cask 'macvim'
 brew 'neovim'
 brew 'neovim-qt'
@@ -144,16 +144,16 @@ brew 'go'
 brew 'rbenv'
 
 # java
-cask 'adoptopenjdk15'
+# cask 'adoptopenjdk15'
 
-brew 'micronaut'
+# brew 'micronaut'
 
 # java for PlantUML running
-cask 'temurin'
+# cask 'temurin'
 
 
 # build tools
-brew 'gradle'
+# brew 'gradle'
 
 
 # flutter
@@ -161,7 +161,7 @@ cask 'flutter'
 
 
 # kotlin for NEXCO PoC
-brew 'kotlin'
+# brew 'kotlin'
 
 ##
 # Version control
@@ -226,19 +226,19 @@ cask 'docker'
 # brew 'kubectl'
 
 # the package manager for kubernetes
-brew 'helm'
+# brew 'helm'
 
 # Faster way to switch between clusters and namespaces in kubectl
-brew 'kubectx'
+# brew 'kubectx'
 
 # Bulk port forwarding Kubernetes services for local development.
-brew 'txn2/tap/kubefwd'
+# brew 'txn2/tap/kubefwd'
 
 # 🐶 Kubernetes CLI To Manage Your Clusters In Style
-brew 'derailed/k9s/k9s'
+# brew 'derailed/k9s/k9s'
 
 # ⎈ Multi pod and container log tailing for Kubernetes
-brew 'stern'
+# brew 'stern'
 
 
 ##
