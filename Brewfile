@@ -36,7 +36,7 @@ cask 'chromedriver'
 # Chat
 ##
 
-cask 'microsoft-teams'
+# cask 'microsoft-teams'
 cask 'slack'
 
 mas 'LINE', id: 539883307
