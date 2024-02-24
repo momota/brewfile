@@ -80,6 +80,9 @@ brew 'yq'
 # Tree is a directory lister that shows a tree outline
 brew 'tree'
 
+# Perl-powered file rename script with many helpful built-ins
+brew 'rename'
+
 ##
 # Editor
 ##
