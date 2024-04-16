@@ -3,14 +3,10 @@
 ##
 
 # Tap homebrew
-# tap 'homebrew/cask'
 tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 
-# tap 'homebrew/core'
-# tap 'homebrew/boneyard'
-# tap 'homebrew/dev-tools'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 
@@ -158,9 +154,6 @@ brew 'cocoapods'
 # brew 'gradle'
 
 
-# flutter
-cask 'flutter'
-
 ##
 # Version control
 ##
@@ -218,25 +211,6 @@ brew 'ansible'
 
 # docker for mac
 cask 'docker'
-
-# the cli tool for kubernetes
-#   - commented out because it is installed with docker
-# brew 'kubectl'
-
-# the package manager for kubernetes
-brew 'helm'
-
-# Faster way to switch between clusters and namespaces in kubectl
-brew 'kubectx'
-
-# Bulk port forwarding Kubernetes services for local development.
-brew 'txn2/tap/kubefwd'
-
-# 🐶 Kubernetes CLI To Manage Your Clusters In Style
-# brew 'derailed/k9s/k9s'
-
-# ⎈ Multi pod and container log tailing for Kubernetes
-brew 'stern'
 
 
 ##
