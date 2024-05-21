@@ -59,7 +59,7 @@ brew 'zsh'
 brew 'fish'
 
 # RDP client
-cask 'microsoft-remote-desktop'
+# cask 'microsoft-remote-desktop'
 
 ##
 # terminal tools
@@ -87,26 +87,9 @@ brew 'rename'
 # Editor
 ##
 
-# brew 'vim'
-# cask 'macvim'
 brew 'neovim'
 brew 'neovim-qt'
 brew 'less'
-
-# to install vimr ---------
-brew 'carthage'
-brew 'coreutils'
-brew 'gnu-sed'
-brew 'libtool'
-brew 'automake'
-brew 'cmake'
-brew 'pkg-config'
-brew 'gettext'
-brew 'ninja'
-brew 'coreutils'
-
-brew 'python3'
-# -------------------------
 
 
 ##
@@ -117,10 +100,6 @@ cask 'visual-studio-code'
 
 mas 'Xcode', id: 497799835
 
-cask 'intellij-idea-ce'
-
-# tools for building Android applications
-cask 'android-studio'
 
 ##
 # Downloaders
@@ -134,37 +113,11 @@ brew 'wget'
 # language
 ##
 
-# node.js
-brew 'node'
-
-# package manager for node.js
-brew 'yarn'
-
-# golang
-brew 'go'
-
 # ruby
 brew 'rbenv'
 
-# java
-# cask 'adoptopenjdk15'
-
-# brew 'micronaut'
-
-# java for PlantUML running
-# cask 'temurin'
-
-
-# build tools
-# brew 'gradle'
-
-
-# flutter
-cask 'flutter'
-
-
-# kotlin for NEXCO PoC
-# brew 'kotlin'
+# Python
+brew 'python3'
 
 ##
 # Version control
@@ -187,18 +140,9 @@ brew 'git-secrets'
 ##
 # network / vpn
 ##
-brew 'sshuttle'
-
-# Free and open-source OpenVPN client
-cask 'tunnelblick'
 
 # api client
 cask 'postman'
-
-##
-# database
-##
-cask 'dbeaver-community'
 
 
 ##
@@ -207,15 +151,7 @@ cask 'dbeaver-community'
 
 brew 'awscli'
 brew 'serverless'
-brew 'packer'
 
-##
-# IaC
-##
-
-brew 'terraform'
-brew 'terragrunt'
-brew 'ansible'
 
 ##
 # container
@@ -223,25 +159,6 @@ brew 'ansible'
 
 # docker for mac
 cask 'docker'
-
-# the cli tool for kubernetes
-#   - commented out because it is installed with docker
-# brew 'kubectl'
-
-# the package manager for kubernetes
-# brew 'helm'
-
-# Faster way to switch between clusters and namespaces in kubectl
-# brew 'kubectx'
-
-# Bulk port forwarding Kubernetes services for local development.
-# brew 'txn2/tap/kubefwd'
-
-# 🐶 Kubernetes CLI To Manage Your Clusters In Style
-# brew 'derailed/k9s/k9s'
-
-# ⎈ Multi pod and container log tailing for Kubernetes
-# brew 'stern'
 
 
 ##
@@ -284,15 +201,8 @@ cask 'blackhole-16ch'
 # launcher
 ##
 
-# cask 'alfred'
 cask 'raycast'
 
-
-##
-# Meeting
-##
-
-cask 'zoom'
 
 ##
 # Note, memo
@@ -319,23 +229,12 @@ brew 'bitwarden-cli'
 # password generator
 brew 'pwgen'
 
-##
-# Office
-##
-
-# mas 'microsoft-365', id: 1450038993re
 
 ##
 # design tools
 ##
 
 cask 'figma'
-
-##
-# Anti-virus
-##
-
-# cask 'avast-security'
 
 
 ##
@@ -345,28 +244,8 @@ cask 'figma'
 cask 'flux'
 
 # clipboard manager
-
-# clipy doesn't work copying screenshot, so switch to maccy
-# cask 'clipy'
-
 cask 'maccy'
 
-# Tool to manage the size and position of windows
-# => Substituted by raycast
-# cask 'shiftit'
-
-# Yet another keyboard window switcher for your Mac
-#   -> Removed due to iterference with Windows operations in VDI
-# cask 'hyperswitch'
 
 # Snippets Manager
-#   manually installed; Can not install from brew.
-# mas 'Snippety', id: 1530751461
-
-# list the shortcut keys for each applications
-# cask 'cheatsheet'
-
-
-# graph visualization software
-#   for the PlantUML plugin of VS Code
-brew 'graphviz'
+ mas 'Snippety', id: 1530751461
