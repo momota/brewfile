@@ -9,23 +9,25 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 
 tap 'homebrew/core'
-# tap 'homebrew/boneyard'
-# tap 'homebrew/dev-tools'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
-
-# alpha
-tap 'adoptopenjdk/openjdk'
 
 
 # cli for installing apps of the Mac App Store
 brew 'mas'
 
 ##
+# Keyboard
+##
+
+# Keyboard Customiser
+cask 'karabiner-elements'
+
+##
 # Browsers
 ##
 
-cask 'google-chrome'
+# cask 'google-chrome'
 cask 'microsoft-edge'
 
 # WebDriver which is oss tools for automated testing of webapps across web browsers
@@ -36,10 +38,8 @@ cask 'chromedriver'
 # Chat
 ##
 
-# cask 'microsoft-teams'
 cask 'slack'
 
-mas 'LINE', id: 539883307
 
 ##
 # Terminals
@@ -47,6 +47,7 @@ mas 'LINE', id: 539883307
 
 cask 'iterm2'
 cask 'warp'
+
 
 # Tmux is a newer terminal multiplexer.
 brew 'tmux'
@@ -58,8 +59,6 @@ brew 'tmux'
 brew 'zsh'
 brew 'fish'
 
-# RDP client
-# cask 'microsoft-remote-desktop'
 
 ##
 # terminal tools
@@ -97,8 +96,6 @@ brew 'less'
 ##
 
 cask 'visual-studio-code'
-
-mas 'Xcode', id: 497799835
 
 
 ##
@@ -175,7 +172,11 @@ cask 'font-cica'
 cask 'google-japanese-ime'
 
 # migemo
-brew 'cmigemo'
+#   --> When I installed it with brew, the dictionary file could not be read properly and an error occurred, so I uninstalled it.
+# brew 'cmigemo'
+
+# Required to install migemo from source
+brew 'nkf'
 
 ##
 # Multimedia
@@ -192,10 +193,10 @@ cask 'kindle'
 cask 'spotify'
 
 # PicGIF Lite (GIF animation tool)
-mas 'PicGIF Lite', id: 844918735
+# mas 'PicGIF Lite', id: 844918735
 
 # BlackHole is a modern macOS virtual audio driver that allows applications to pass audio to other applications with zero additional latency.
-cask 'blackhole-16ch'
+# cask 'blackhole-16ch'
 
 ##
 # launcher
@@ -244,8 +245,9 @@ cask 'figma'
 cask 'flux'
 
 # clipboard manager
-cask 'maccy'
+#   --> integrated to raycast
+# cask 'maccy'
 
 
 # Snippets Manager
- mas 'Snippety', id: 1530751461
+# mas 'Snippety', id: 1530751461
