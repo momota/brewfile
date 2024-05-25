@@ -41,6 +41,7 @@ mas 'LINE', id: 539883307
 ##
 
 cask 'iterm2'
+cask 'warp'
 
 # Tmux is a newer terminal multiplexer.
 brew 'tmux'
@@ -75,7 +76,6 @@ brew 'tree'
 # Editor
 ##
 
-brew 'vim'
 # cask 'macvim'
 brew 'neovim'
 brew 'neovim-qt'
@@ -105,14 +105,6 @@ cask 'visual-studio-code'
 
 mas 'Xcode', id: 497799835
 
-# cask 'intellij-idea-ce'
-
-# Tools for building Android applications
-cask 'android-studio'
-
-
-# tools for building Android applications
-cask 'android-studio'
 
 ##
 # Downloaders
@@ -137,17 +129,6 @@ brew 'go'
 
 # ruby
 brew 'rbenv'
-
-# java
-# cask 'adoptopenjdk15'
-
-# brew 'micronaut'
-
-# UI toolkit for building applications for mobile, web and desktop
-cask 'flutter'
-
-# Dependency manager for Cocoa projects
-brew 'cocoapods'
 
 
 # build tools
@@ -202,7 +183,6 @@ brew 'serverless'
 ##
 
 brew 'terraform'
-brew 'terragrunt'
 brew 'ansible'
 
 ##
@@ -317,17 +297,10 @@ brew 'pwgen'
 # Misc
 ##
 
-cask 'flux'
-
 # clipboard manager
 
 # clipy doesn't work copying screenshot, so switch to maccy
 # cask 'clipy'
-
-cask 'maccy'
-
-# Snippets manager
-mas 'Snippety', id: 1530751461
 
 # Tool to manage the size and position of windows
 # => Substituted by raycast
@@ -336,8 +309,3 @@ mas 'Snippety', id: 1530751461
 # Yet another keyboard window switcher for your Mac
 cask 'hyperswitch'
 
-# list the shortcut keys for each applications
-# cask 'cheatsheet'
-# Snippets Manager
-#   manually installed; Can not install from brew.
-# mas 'Snippety', id: 1530751461
