@@ -90,7 +90,7 @@ brew 'less'
 # IDE
 ##
 
-cask 'visual-studio-code'
+# cask 'visual-studio-code'
 
 
 ##
