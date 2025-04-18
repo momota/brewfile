@@ -33,7 +33,7 @@ cask 'chromedriver'
 # Chat
 ##
 
-cask 'slack'
+# cask 'slack'
 
 
 ##
@@ -109,7 +109,7 @@ brew 'wget'
 brew 'rbenv'
 
 # Python
-brew 'python3'
+brew 'python'
 
 ##
 # Version control
@@ -143,14 +143,14 @@ cask 'postman'
 
 brew 'awscli'
 brew 'serverless'
-
+cask 'google-cloud-sdk'
 
 ##
 # container
 ##
 
 # docker for mac
-cask 'docker'
+# cask 'docker'
 
 
 ##
@@ -181,11 +181,11 @@ cask 'vlc'
 cask 'skitch'
 
 # ebook viewer
-cask 'kindle'
+# cask 'kindle'
 
 
 # music
-cask 'spotify'
+# cask 'spotify'
 
 # PicGIF Lite (GIF animation tool)
 # mas 'PicGIF Lite', id: 844918735
@@ -215,7 +215,7 @@ cask 'notion'
 # Storage service
 ##
 
-cask 'dropbox'
+# cask 'dropbox'
 
 
 ##

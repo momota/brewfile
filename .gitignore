@@ -130,3 +130,6 @@ dmypy.json
 
 # brew
 Brewfile.lock.json
+
+# mac
+.DS_Store
