@@ -54,6 +54,8 @@ brew 'tmux'
 brew 'zsh'
 brew 'fish'
 
+# zsh-autosuggestions: Fish-like fast/unobtrusive autosuggestions for zsh
+brew 'zsh-autosuggestions'
 
 ##
 # terminal tools
@@ -76,6 +78,9 @@ brew 'tree'
 
 # Perl-powered file rename script with many helpful built-ins
 brew 'rename'
+
+# Interact with Google Gemini AI models from the command-line
+brew 'gemini-cli'
 
 ##
 # Editor
@@ -110,6 +115,7 @@ brew 'rbenv'
 
 # Python
 brew 'python'
+brew 'uv'
 
 ##
 # Version control
@@ -143,7 +149,7 @@ cask 'postman'
 
 brew 'awscli'
 brew 'serverless'
-cask 'google-cloud-sdk'
+cask 'gcloud-cli'
 
 ##
 # container
@@ -151,7 +157,7 @@ cask 'google-cloud-sdk'
 
 # docker for mac
 # cask 'docker'
-
+cask 'rancher'
 
 ##
 # font
@@ -191,7 +197,7 @@ cask 'skitch'
 # mas 'PicGIF Lite', id: 844918735
 
 # BlackHole is a modern macOS virtual audio driver that allows applications to pass audio to other applications with zero additional latency.
-# cask 'blackhole-16ch'
+cask 'blackhole-16ch'
 
 # Change macOS audio source from the command-line
 brew 'switchaudio-osx'
@@ -241,7 +247,7 @@ cask 'figma'
 # Misc
 ##
 
-cask 'flux'
+cask 'flux-app'
 
 # clipboard manager
 #   --> integrated to raycast
