@@ -80,7 +80,8 @@ brew 'tree'
 brew 'rename'
 
 # Interact with Google Gemini AI models from the command-line
-brew 'gemini-cli'
+# brew 'gemini-cli'
+cask 'antigravity-cli'
 
 ##
 # Editor
