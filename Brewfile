@@ -165,6 +165,7 @@ cask 'rancher'
 ##
 
 cask 'font-cica'
+cask 'font-jetbrains-mono-nerd-font'
 
 
 ##
